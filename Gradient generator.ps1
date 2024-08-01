@@ -46,9 +46,9 @@ function createGradient($color1, $color2, $string, [int]$fontsize = 0, [switch]$
 # Change values here for usage
 $color1 = "#E98750" # Outer color
 $color2 = "#D0E87B" # inner color
-$string = 'for 24 hours challenge'
+$string = 'GradientShell'
 $fontsize = 150
 
-$result = createGradient $color1 $color2 $string $fontsize -bold -mirror
+$result = createGradient $color1 $color2 $string $fontsize $bold $mirror
 
 Write-Output $result
