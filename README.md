@@ -7,7 +7,7 @@ Mainly used for my osu! maps, with modifiable output to create multiple variatio
 $color1 & $color2: Hex values for the gradient to use (478be6 and 7e1c51 for example)  
 $string: The string to have the gradient applied to  
 $fontsize: Integer used for the font size  
-$bold: If set to true the output will be #bold  
+$bold: If set to true the output will be bold  
 $mirror: If set to true the gradient will start on both ends of the string and meet in the middle, otherwise it will display the gradient from left to right  
 
 ## Examples:
